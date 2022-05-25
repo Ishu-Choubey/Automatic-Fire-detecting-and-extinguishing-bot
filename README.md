@@ -62,10 +62,9 @@ The main controlling unit used in this project is ARDUINO UNO R3, apart from thi
 <!-- WORKING -->
 ## Working
 Following figure shows the Block Diagram of this robot used in project. The main focus of this project is to sense or search the surrounding for any possible fire and extinguish it with the help of a water pump. The Arduino UNO Microcontroller board based on the ATmega328P. The ATmega328P is good platform for robotics application. Thus, the real time fire extinguishing can be performed.
-
-![map](https://user-images.githubusercontent.com/82866163/170266580-2a44fe2c-3558-4b32-abc4-d67c516e43bc.png)
-
-
+<br/>
+![map](https://user-images.githubusercontent.com/82866163/170268827-eca60d93-61da-4509-a418-7ccc92e68752.png)
+<br/>
 The main aim of this project is to develop a fully automated fire extinguishing robot which detects the fire location and extinguish fire by using sprinklers on triggering the pump. The direction of movement of the robot are described by the motor driver board. It is used to give high voltage and high current is given as an output to run the motors which are used in the project for the movement of the robot. In this project a simple DC motor is used for the rotation of the wheel which are responsible for the movement of the robot. DC motors usually convert electrical energy into mechanical energy. To extinguish the fire a pump is used to pump the water on to the flame. A simple single channel relay module is used to pump the water and a servo motor is mounted on pipe’s head so that it can sprinkle water over more area. The pumping motor in extinguishing system controls the flow of water coming out of pumping.
 
 <!-- SOFTWARE IMPLEMENTATION -->
