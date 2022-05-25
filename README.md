@@ -23,6 +23,8 @@ Fire is one of five major elements on earth, during this period of advancement f
       </ul>
     </li>
     <li><a href="#working">Working</a></li>
+    <li><a href="#softwareimplentation">Software Implementation</a></li>
+    <li><a href="#hardwareimplentation">Hardware Implementation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
@@ -60,9 +62,31 @@ The main controlling unit used in this project is ARDUINO UNO R3, apart from thi
 <!-- WORKING -->
 ## Working
 Following figure shows the Block Diagram of this robot used in project. The main focus of this project is to sense or search the surrounding for any possible fire and extinguish it with the help of a water pump. The Arduino UNO Microcontroller board based on the ATmega328P. The ATmega328P is good platform for robotics application. Thus, the real time fire extinguishing can be performed.
-![image](https://user-images.githubusercontent.com/82866163/170266254-f1f6dd2c-36dc-4a15-9921-e9cada7ff19e.png)
+
+![map](https://user-images.githubusercontent.com/82866163/170266580-2a44fe2c-3558-4b32-abc4-d67c516e43bc.png)
+
 
 The main aim of this project is to develop a fully automated fire extinguishing robot which detects the fire location and extinguish fire by using sprinklers on triggering the pump. The direction of movement of the robot are described by the motor driver board. It is used to give high voltage and high current is given as an output to run the motors which are used in the project for the movement of the robot. In this project a simple DC motor is used for the rotation of the wheel which are responsible for the movement of the robot. DC motors usually convert electrical energy into mechanical energy. To extinguish the fire a pump is used to pump the water on to the flame. A simple single channel relay module is used to pump the water and a servo motor is mounted on pipe’s head so that it can sprinkle water over more area. The pumping motor in extinguishing system controls the flow of water coming out of pumping.
+
+<!-- SOFTWARE IMPLEMENTATION -->
+## Software Implementation
+
+The connections are shown in following figure, as we can see that the motor driver control is connected through pin 2,3,4 and 5 pin 2 and 3 for controlling left wheel and pin 4 and5 for controlling right wheel. In sext step we connected three flame sensors via pin 8,9 and 10, pin 8 is connected to left flame sensor, pin 9 is connected to centre flame sensor and the right flame sensor is connected via pin 10. A servo motor is connected to pin number 11, the use of the servo motor is that it will help in scattering more water over a large area as the head of pipe is connected to the stepper motor, a 5V water pump is also attached to pin 6. A 9V battery is used to power up whole system.
+The whole software simulation is done on proteus 8 professional (version 8.13), and code was written on ARDUINO IDE to generate a .HEX file.
+![software](https://user-images.githubusercontent.com/82866163/170267719-d5bdc24f-003b-4823-8224-6fddcc1b9e23.png)
+
+
+<!-- HARDWARE IMPLEMENTATION -->
+## Hardware Implementation
+
+All the connections are made according to circuit given above, two wheels are attached to the two stepper motors respectively, a non-powered support wheel is also attached in front of chassis, all connections are done on a small breadboard mounted on the back of the vehicle. The flame sensors are mounted on front of the car chassis, one extra thing is added to hardware is a 5V single channel relay module to power up the pump we are using, the reason behind using this relay is that the Arduino pins aren’t providing sufficient power to water pump.
+As shown in figure ‘4.c’ the servo motor is mounted on top front side of the setup and a water container is also placed on top of the vehicle for water supply. Water pump is submerged inside the water container, a pipe is used to deliver water out of the container. The head of pipe is attached to head pf servo motor as shown.
+In total three 9V batteries are used to power up full system, one battery is used to power up ARDUINO and flame sensors, servo motor and relay module also draw their power from ARDUINO, the other battery is used to power up motors and it is directly connected to motor driver module the last and third battery is connected to the replay module and is used to power up our water pump, as shown in following figures 
+![1](https://user-images.githubusercontent.com/82866163/170268339-6131dcb2-e75d-430c-a289-6325261ee466.jpeg)
+![2](https://user-images.githubusercontent.com/82866163/170268417-05e9eb8c-c96c-4256-959a-dac1db5d9ef1.jpeg)
+![3](https://user-images.githubusercontent.com/82866163/170268425-3fe450e5-8793-4a8b-95bc-3b73c80e5e65.jpeg)
+![4](https://user-images.githubusercontent.com/82866163/170268467-4f2b9cc9-bea2-48f6-83dc-3599e381b6eb.jpeg)
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
