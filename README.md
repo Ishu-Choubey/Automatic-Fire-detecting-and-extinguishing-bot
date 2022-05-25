@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  [Logo Agnibot](https://user-images.githubusercontent.com/82866163/170291441-b258deff-fa26-4009-98ba-1bc8931f1276.png)
+  https://user-images.githubusercontent.com/82866163/170291441-b258deff-fa26-4009-98ba-1bc8931f1276.png)
  width="355.630965006" height="160"
 
  <h2 align="center">Automatic-Fire-detecting-and-extinguishing-bot</h2>
