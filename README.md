@@ -40,22 +40,22 @@ As a result of a fire outbreak (or) fire explosion, we use human resources that 
 ### Built With
 
 The main controlling unit used in this project is ARDUINO UNO R3, apart from this, major components are flame sensors, stepper and servo motors and water pump are used. The list of components used are as follows:
-• ARDUINO UNO R3- 1
-• L293d motor driver IC board- 1
-• Servo motor- 1
-• Stepper motor- 2
-• Wheels- 3
-• Flame sensor- 3
-• Car chassis- 1(plastic/wood)
-• Single channel relay module- 1
-• Mini breadboard
-• Jumper wires and battery connectors
-• 9V batteries- 3
-• 5V water pump
-• Small pipe piece
-• Water container
-• Double sided tape and cello tape
-• Screwdriver and screws
+<ul>ARDUINO UNO R3- 1 </ul>
+<ul>L293d motor driver IC board- 1</ul>
+<ul>Servo motor- 1</ul>
+<ul>Stepper motor- 2</ul>
+<ul>Wheels- 3</ul>
+<ul>Flame sensor- 3</ul>
+<ul>Car chassis- 1(plastic/wood)</ul>
+<ul>Single channel relay module- 1</ul>
+<ul>Mini breadboard</ul>
+<ul>Jumper wires and battery connectors</ul>
+<ul>9V batteries- 3</ul>
+<ul>5V water pump</ul>
+<ul>Small pipe piece</ul>
+<ul>Water container</ul>
+<ul>Double sided tape and cello tape</ul>
+<ul>Screwdriver and screws</ul>
 
 <!-- WORKING -->
 ## Working
@@ -66,10 +66,15 @@ The main aim of this project is to develop a fully automated fire extinguishing 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+The robot is best suited for operating in an environment where humans cannot go, for example forest fire. Also, with the help of this idea we can save many human lives, using this robot properly we can put out fire in very short time, the robot efficiently detects fire then align itself in direction of fire then moves towards it, and after stopping at a very safe distance from fire the robot stops and then sprinkle water on fire source till it extinguishes.
 
 <!-- ROADMAP -->
 ## Roadmap
 
+The robot works exactly as expected in both software as well as in hardware, in case of software, due to heavy load on local machine’s processor (laptop in this case), the simulation is not real time, but the circuit responds to signals accordingly.
+This local lag in software can be overcome by using a machine with better specifications.
+In case of hardware simulation, the robot detects a flame around 1meter from it and move accordingly, for example is left sensor detects a flame then right side motor gets activated and robot just shifts itself in direction of fire, similarly if right sensor detects a flame then left side motor gets activated and robot just shifts itself in direction of fire. Once the robot is automatically aligned with the fire source it checks for fire again and this time when front flame senor detects fire, the robot moves forward in the direction of fire, then it stops automatically at a safe distance from fire and after stopping the water pump and servo motor gets activated and fire gets extinguished.
+The responsiveness of this whole system depends on the amount of input voltage supply we are providing, in this case we are using three 9V batteries, but they drain very fast, so alternatively we can use any DC source to power this system.
 
 
 <!-- LICENSE -->
