@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href=("https://github.com/Ishu-Choubey/Automatic-Fire-detecting-and-extinguishing-bot/blob/28795cf28ef01da2a13819e1eb2ced806cfae504/Logo%20Agnibot.png") alt="Logo" width="355.630965006" height="160">
+  <a href=(https://github.com/Ishu-Choubey/Automatic-Fire-detecting-and-extinguishing-bot/blob/28795cf28ef01da2a13819e1eb2ced806cfae504/Logo%20Agnibot.png"") alt="Logo" width="355.630965006" height="160">
  <h2 align="center">Automatic-Fire-detecting-and-extinguishing-bot</h2>
  <br/>
 Fire is one of five major elements on earth, during this period of advancement fires and accidents are common, detecting fire and extinguishing is a hazardous job for a fire extinguisher, it often risks the life of that person. Our motive is to build a LOW-COST robot which can detect fire automatically and then put it out on its own. This is a self-acting robot able to move on its own using motors if it detects any kind of fire using flame sensor and then it automatically put out fires using a water storage tank and pump onboard, everything is controlled by a microcontroller that is ARDUINO UNO R3, using data from three different flame sensors it moves in the direction of fire spot and follows the trail of fire detected afterwards.
